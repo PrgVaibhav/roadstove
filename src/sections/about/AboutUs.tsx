@@ -4,29 +4,30 @@ import { AboutData } from "../../helper/data/data";
 export const AboutUs = () => {
   return (
     <section
-      className=" flex flex-col  justify-center w-full p-3  mona"
+      className=" flex flex-col items-center justify-center w-full p-3 mona min-h-lvh gap-[8vh]"
       aria-labelledby="hero-heading"
     >
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col items-center justify-center  gap-2 w-full ">
         <h1
           id="hero-heading"
-          className="text-5xl font-bold text-[#111] leading-none tracking-tighter"
+          className="text-5xl font-bold text-[#111] leading-none tracking-tight"
         >
           About Us
         </h1>
-        <p className="text-lg sm:text-xl font-bold text-[#746f6f] leading-snug tracking-tighter capitalize">
+        <p className=" font-bold text-[#746f6f] leading-snug tracking-tighter capitalize bg-[#d2c9c9] px-2 py-1 w-max rounded-lg shadow-lg border border-[#b3b0b0]">
           Who we are?
         </p>
       </div>
 
-      <section className="flex flex-col sm:flex-row items-center justify-center gap-8 mt-8 sm:mt-[8vh]">
-        <div className="w-full sm:w-[50%] ">
+      <section className="flex flex-col sm:flex-row items-center justify-center gap-8  ">
+        <div className="w-full sm:w-[50%] h-auto object-contain ">
           <img
             src={aboutUsLogo}
             alt=""
-            className="w-[60vw] sm:w-[50vw] h-auto object-contain"
+            className="w-[60vw] sm:w-[40vw] h-auto object-contain"
           />
         </div>
+
         <div className="w-full sm:w-[50%]">
           <p className="text-md sm:text-xl font-medium text-[#746f6f] leading-snug tracking-tighter capitalize ">
             We are a family-owned restaurant that specializes in serving

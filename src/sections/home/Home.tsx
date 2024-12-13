@@ -12,7 +12,7 @@ export const Home = () => {
 
   return (
     <section
-      className="flex items-center flex-col-reverse justify-center sm:flex-row sm:justify-around w-full p-3 min-h-screen mona"
+      className="flex items-center flex-col-reverse justify-center sm:flex-row sm:justify-around w-full p-3 min-h-[calc(100vh-24px)] mona"
       aria-labelledby="hero-heading"
     >
       {/* Text Content Section */}
