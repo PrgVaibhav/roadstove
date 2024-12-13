@@ -45,27 +45,27 @@ export const AboutData: ABOUT_DATA[] = [
     title: "Fast Delivery",
     description:
       "The food will be delivered to your home withing [some time span] of your ordering.",
-    icon: <Package />,
+    icon: <Package size={15} />,
   },
   {
     id: 2,
     title: "Fresh Food",
     description:
       "Your food will be delivered 100% fresh to your home, we don't deliver stale food.",
-    icon: <SprayCan />,
+    icon: <SprayCan size={15} />,
   },
   {
     id: 3,
     title: "Affordable Prices",
     description:
       "Enjoy delicious meals at pocket-friendly prices. Great taste doesn’t have to break the bank!.",
-    icon: <IndianRupeeIcon />,
+    icon: <IndianRupeeIcon size={15} />,
   },
   {
     id: 4,
     title: "Hygienic Preparation",
     description:
       "Every dish is prepared with utmost care and hygiene, ensuring your safety and satisfaction with every bite.",
-    icon: <Snowflake />,
+    icon: <Snowflake size={15} />,
   },
 ];
