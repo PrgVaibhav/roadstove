@@ -1,14 +1,14 @@
 import { ROUTES } from "../../../helper/data/data";
 export const Navbar = () => {
   return (
-    <nav className="flex items-center justify-around w-full mona p-3 relative">
+    <nav className="flex items-center justify-between w-full mona p-3 relative ">
       <div className="logo flex gap-8 items-center">
         <div>
           <h1 className="text-3xl font-bold text-[#111] leading-none tracking-tighter">
             RoadStove
           </h1>
         </div>
-        <ul className="flex items-center gap-4">
+        <ul className="hidden sm:flex items-center gap-4">
           {ROUTES.map((route) => (
             <li key={route.id}>
               <a
