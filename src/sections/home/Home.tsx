@@ -12,14 +12,14 @@ export const Home = () => {
 
   return (
     <section
-      className="flex items-center flex-col-reverse justify-center sm:flex-row sm:justify-around w-full p-3 min-h-[calc(100vh-24px)] mona"
+      className="flex items-center flex-col justify-center sm:flex-row sm:justify-around w-full p-3 min-h-[calc(100vh-48px)] mona"
       aria-labelledby="hero-heading"
     >
       {/* Text Content Section */}
       <div className="flex flex-col gap-4 w-full sm:w-[50%]">
         {/* Dynamic Typing Component */}
         <div
-          className="text-lg font-bold text-[#3d3d3d] leading-none tracking-tighter bg-[#d2c9c9] p-2 w-max rounded-lg shadow-lg border border-[#b3b0b0]"
+          className="text-lg font-bold text-[#3d3d3d] leading-none tracking-wide bg-[#d2c9c9] p-2 w-max rounded-lg shadow-lg border border-[#b3b0b0]"
           aria-label="Dynamic Greeting Messages"
         >
           <ReactTyped
@@ -35,12 +35,12 @@ export const Home = () => {
         <div className="flex flex-col gap-2">
           <h1
             id="hero-heading"
-            className="text-3xl sm:text-5xl font-bold text-[#111] leading-none tracking-tighter"
+            className="text-3xl sm:text-5xl font-bold text-[#111] leading-tight tracking-wide"
           >
             Welcome to <span className="text-[#EF0016]">Roadstove</span>, Where
             Taste Meets Comfort!
           </h1>
-          <p className="text-md sm:text-xl font-bold text-[#746f6f] leading-snug tracking-tighter capitalize">
+          <p className="text-md sm:text-xl font-bold text-[#746f6f] leading-tight tracking-wide capitalize">
             Hungry? We’ve got you covered. Explore a world of tasty dishes just
             a click away.
           </p>
@@ -50,20 +50,20 @@ export const Home = () => {
         <div className="flex  items-start sm:flex-row sm:items-center gap-4">
           <button
             className="
-              text-[#EB6B6B] font-medium border border-[#EB6B6B] py-2 px-4 rounded-lg flex gap-2 items-center 
-              transition-all duration-300 ease-in-out hover:bg-[#EB6B6B] hover:text-white shadow-md active:scale-95 text-sm"
+              text-[#EB6B6B] font-medium border border-[#EB6B6B] px-6 py-3 sm:py-2 sm:px-4 rounded-lg flex gap-2 items-center 
+              transition-all duration-300 ease-in-out hover:bg-[#EB6B6B] hover:text-white shadow-md active:scale-95 text-md"
             aria-label="Order Food Now"
           >
-            <ClockArrowUp size={15} />
+            <ClockArrowUp size={20} />
             Order Now
           </button>
           <button
             className="
-              bg-[#25D366] text-white font-medium py-2 px-4 rounded-lg flex gap-2 items-center 
-              transition-transform duration-300 ease-in-out shadow-md active:scale-95 text-sm"
+              bg-[#25D366] text-white font-medium px-6 py-3 sm:py-2 sm:px-4 rounded-lg flex gap-2 items-center 
+              transition-transform duration-300 ease-in-out shadow-md active:scale-95 text-md"
             aria-label="Order Food on WhatsApp"
           >
-            <MessageCircleMore size={15} />
+            <MessageCircleMore size={20} />
             Order On WhatsApp
           </button>
         </div>

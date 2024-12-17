@@ -4,7 +4,7 @@ import swiggy from "../../assets/swiggy.png";
 export const DeliveryPartners = () => {
   return (
     <section
-      className=" flex flex-col items-center justify-center w-full p-3 mona min-h-lvh gap-[8vh]"
+      className=" flex flex-col items-center justify-center w-full p-3 mona min-h-screen gap-[8vh]"
       aria-labelledby="hero-heading"
     >
       <div className="flex flex-col items-center justify-center  gap-2 w-full ">
