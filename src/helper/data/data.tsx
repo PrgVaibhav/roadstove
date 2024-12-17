@@ -1,10 +1,23 @@
 import { IndianRupeeIcon, Package, Snowflake, SprayCan } from "lucide-react";
-import React from "react";
+import BURGER from "../../assets/burger.webp";
+import CHICKEN_WINGS from "../../assets/chicken-wings.webp";
+import FRIES from "../../assets/fries.webp";
+import PIZZA from "../../assets/pizza.webp";
+import PAW_BHAJI from "../../assets/paw-bhaji.webp";
+import PASTA from "../../assets/pasta.webp";
+import SAMOSA from "../../assets/samosa.webp";
+import SANDWICH from "../../assets/sandwich.webp";
 
 interface ROUTE {
   id: number;
   name: string;
   path: string;
+}
+
+interface BEST_DELIVERY_DATA {
+  id: number;
+  title: string;
+  img: string;
 }
 
 interface ABOUT_DATA {
@@ -67,5 +80,50 @@ export const AboutData: ABOUT_DATA[] = [
     description:
       "Every dish is prepared with utmost care and hygiene, ensuring your safety and satisfaction with every bite.",
     icon: <Snowflake size={15} />,
+  },
+];
+
+export const BestDeliveryData: BEST_DELIVERY_DATA[] = [
+  {
+    id: 1,
+    title: "Burger",
+    img: BURGER,
+  },
+  {
+    id: 2,
+    title: "Chicken Wings",
+    img: CHICKEN_WINGS,
+  },
+  {
+    id: 3,
+    title: "Fries",
+    img: FRIES,
+  },
+  {
+    id: 4,
+    title: "Pasta",
+    img: PASTA,
+  },
+
+  {
+    id: 5,
+    title: "Paw Bhaji",
+    img: PAW_BHAJI,
+  },
+
+  {
+    id: 6,
+    title: "Pizza",
+    img: PIZZA,
+  },
+  {
+    id: 7,
+    title: "Samosa",
+    img: SAMOSA,
+  },
+  {
+    id: 8,
+    title: "Sandwich",
+    img: SANDWICH,
   },
 ];
