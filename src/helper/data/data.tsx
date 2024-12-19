@@ -18,7 +18,7 @@ interface BEST_DELIVERY_DATA {
   id: number;
   title: string;
   img: string;
-  tag?: string;
+  tag: string;
 }
 
 interface ABOUT_DATA {

@@ -1,9 +1,9 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { ShoppingBag, Flame, Star, Heart, Clock } from "lucide-react";
 import { BestDeliveryData } from "../../helper/data/data";
 
-const getTagIcon = (tag) => {
+// Function to return a tag icon based on the tag string
+const getTagIcon = (tag: string): JSX.Element => {
   switch (tag.toLowerCase()) {
     case "popular":
       return <Flame className="w-3 h-3" />;
@@ -18,7 +18,8 @@ const getTagIcon = (tag) => {
   }
 };
 
-const getTagColor = (tag) => {
+// Function to return a tag color based on the tag string
+const getTagColor = (tag: string): string => {
   switch (tag.toLowerCase()) {
     case "popular":
       return "bg-gradient-to-r from-red-500 to-orange-500";
@@ -32,7 +33,6 @@ const getTagColor = (tag) => {
       return "bg-gradient-to-r from-red-500 to-orange-500";
   }
 };
-
 export const BestSeller = () => {
   return (
     <section className="w-full min-h-[calc(100vh-58px)] bg-gradient-to-br from-orange-50 to-rose-50 px-4 py-16">
