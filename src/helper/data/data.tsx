@@ -18,6 +18,7 @@ interface BEST_DELIVERY_DATA {
   id: number;
   title: string;
   img: string;
+  tag?: string;
 }
 
 interface ABOUT_DATA {
@@ -88,42 +89,50 @@ export const BestDeliveryData: BEST_DELIVERY_DATA[] = [
     id: 1,
     title: "Burger",
     img: BURGER,
+    tag: "Popular",
   },
   {
     id: 2,
     title: "Chicken Wings",
     img: CHICKEN_WINGS,
+    tag: "Trending",
   },
   {
     id: 3,
     title: "Fries",
     img: FRIES,
+    tag: "New",
   },
   {
     id: 4,
     title: "Pasta",
     img: PASTA,
+    tag: "Popular",
   },
 
   {
     id: 5,
     title: "Paw Bhaji",
     img: PAW_BHAJI,
+    tag: "Popular",
   },
 
   {
     id: 6,
     title: "Pizza",
     img: PIZZA,
+    tag: "Popular",
   },
   {
     id: 7,
     title: "Samosa",
     img: SAMOSA,
+    tag: "Trending",
   },
   {
     id: 8,
     title: "Sandwich",
     img: SANDWICH,
+    tag: "New",
   },
 ];
